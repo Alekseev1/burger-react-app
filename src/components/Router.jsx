@@ -8,7 +8,11 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/burger-react-app" render={(props) => <Landing {...props} />} />
+        <Route
+          exact
+          path="/burger-react-app"
+          render={(props) => <Landing {...props} />}
+        />
         <Route path="/restaurant/:restaurantId" component={App} />
         <Route component={NotFound} />
       </Switch>

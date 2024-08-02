@@ -1,4 +1,3 @@
-import Rebase from "re-base";
 import * as firebase from "firebase/app";
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
